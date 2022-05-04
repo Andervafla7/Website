@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test Drive</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="https://livejs.com/live.js"></script>
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <nav class="nav-bar secondary-text">
+            <div class="nav-bar-wrapper">
+                <div class="nav-logo-wrapper">
+                    <i class="nav-logo"></i>
+                    <span class="nav-title">Test Drive</span>
+                </div>
+
+                <div class="nav-menu-wrapper">
+                  
+                    <span class="nav-menu-item">Про нас</span>
+                    <span class="nav-menu-item">Новини</span>
+                    <span class="nav-menu-item">Автомобілі</span>
+                    
+                </div>
+                <div class="bk1"><img class="ph1" src="Hamburger_icon.svg.png"></div>
+                
+            </div>
+        </nav>
+    </div>
+  </header>
+  
+  <div class="registration-form-wrapper">
+    <div class="page-wrapper">
+    <div class="form-wrapper">
+      <div class="info">
+        <span class="photo">Ласкаво просимо </span><span class="photo1">, що вас цікавить?</span>
+        <p class="textphoto">Нові автомобілі</p>
+        <p class="textphoto">Корпоративні продажі</p>
+        <p class="textphoto">Автомобілі з пробігом</p>
+        <p class="textphoto">Знайти дилера</p>
+  </div>
+  <span class="span"></span>
+  <div class="block2">
+      <div class="bloc2">
+      <h2 class="form-title">Запис на тест драйв</h2>
+      
+      <form class="registration-form flex-column"action="submit">
+
+          <label class="form-label" for="name">Імʼя</label>
+          <input class="form-input form-button" type="text" id="name" name="name" placeholder="Введіть імʼя" required>
+
+          <label class="form-label" for="phone" required>Телефон</label>
+          <input class="form-input form-button" type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="+38 (_) __ __ __" required>
+
+          <label class="form-label" for="select">Автомобіль</label>
+          <select class="form-input form-input-select form-button"name="" id="select" required>
+              <option value="sed">Седан</option>  
+              <option value="uni">Універсал</option>
+              <option value="coup">Купе</option>
+              <option value="picap">Паркетник</option>
+              
+          </select>
+
+          <button class="form-submit-button" type="submit">Зареєструватися</button>
+      </form>
+      </div>
+    <div class="auto"><img class="auto1" id="car1" src="1.png"></div>
+    </div>
+  </div>
+  </div>
+</div>
+</div>
+     
+
+
+
+  
+  <script src="./script.js" defer></script>
+  </body>
+</html>
